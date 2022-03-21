@@ -1,0 +1,12 @@
+syntax = "proto3";
+package christine713.getweather.getweather;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/christine713/getWeather/x/getweather/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
